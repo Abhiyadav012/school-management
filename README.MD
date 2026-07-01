@@ -1,57 +1,154 @@
-# 🏫 School Infrastructure Management System
+# 🏫 SchoolFix – School Infrastructure Management System
 
-A full-stack MERN application to streamline the reporting and tracking of school infrastructure issues.
+A full-stack MERN application developed as part of the **Unified Mentor Internship Program** to simplify reporting, tracking, and managing school infrastructure issues.
 
-## ✨ Features
+---
 
-- 🔐 JWT Authentication
-- 📝 Report Infrastructure Issues
-- 📊 Dashboard Overview
-- 📍 Track Repair Progress
-- 👨‍💼 Admin Panel
-- 🔄 Update Issue Status
-- 📱 Responsive UI
+## 🌐 Live Demo
+
+**Frontend:**
+https://school-management-sand-xi.vercel.app/
+
+**Backend API:**
+https://school-management-backend-ndv4.onrender.com/
+
+---
+
+## 🚀 Features
+
+### 👨‍🎓 User Features
+
+* 🔐 Secure User Registration & Login
+* 📝 Report School Infrastructure Issues
+* 📍 Track Issue Progress
+* 📊 View Submitted Issues
+* 📱 Fully Responsive User Interface
+
+### 👨‍💼 Admin Features
+
+* 🔒 Secure Admin Login
+* 📋 View All Reported Issues
+* 🔄 Update Issue Status
+* 📈 Dashboard Statistics
+* 🛠 Manage Repair Workflow
+
+### 🔐 Security
+
+* JWT Authentication
+* Protected Routes
+* Role-Based Authorization
+* Secure REST APIs
+
+---
 
 ## 🛠 Tech Stack
 
 ### Frontend
-- React.js
-- Tailwind CSS
-- React Router
-- Axios
+
+* React.js
+* Tailwind CSS
+* React Router DOM
+* Axios
+* React Icons
 
 ### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
 
-## 🚀 Installation
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+* JWT Authentication
+* Bcrypt.js
 
-### Frontend
+### Deployment
 
-```bash
-cd frontend
-npm install
-npm run dev
+* Vercel
+* Render
+
+---
+
+## 📁 Project Structure
+
+```text
+SchoolFix
+│
+├── frontend
+│   ├── src
+│   ├── components
+│   ├── pages
+│   ├── services
+│   └── api
+│
+└── backend
+    ├── config
+    ├── controllers
+    ├── middleware
+    ├── models
+    └── routes
 ```
 
-### Backend
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Abhiyadav012/school-management.git
+
+cd school-management
+```
+
+### Backend Setup
 
 ```bash
 cd backend
+
 npm install
+
 npm run dev
 ```
 
-## 📷 Screenshots
+### Frontend Setup
 
-Coming Soon...
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+Screenshots will be added soon.
+
+---
+
+## 🎯 Future Enhancements
+
+* 📷 Image Upload Support
+* 📧 Email Notifications
+* 🔥 Issue Priority Levels
+* 🔍 Search & Filter Issues
+* 📊 Analytics Dashboard
+* 📱 Mobile Application
+* 🔔 Real-Time Notifications
+
+---
 
 ## 👨‍💻 Developer
 
 **Abhishek Yadav**
 
+Developed as part of the **Unified Mentor Internship Program**.
+
 ---
-⭐ If you like this project, don't forget to star the repository.
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
+
+Thank you for visiting this repository!
