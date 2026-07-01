@@ -12,6 +12,6 @@ export const getAllIssues = async () => {
   return response.data;
 };
 export const updateIssueStatus = async (id, status) => {
-  const response = await API.put(`/issues/${id}`, { status });
+  const response = await API.put(`/issues/${id}/status`, { status });
   return response.data;
 };
